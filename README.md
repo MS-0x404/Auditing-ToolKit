@@ -1,1 +1,84 @@
-# Audit-ToolKit
+# 🔍 Audit System Toolkit — PowerShell & Bash
+
+A lightweight, cross-platform toolkit to monitor critical system events on both Windows and Linux environments.
+
+🛡️ Built from scratch, written manually — designed for sysadmins, pentesters, and students who want to truly understand system logging **without relying on external tools**.
+
+---
+
+## 📂 Contents
+
+### `auditing.ps1`
+- Windows tool using PowerShell
+- Graphical and CLI interface
+- Based on `Get-WinEvent`
+- Supports Event ID search and optional filters (e.g. user, handle, object)
+- Outputs to `C:\log_audit.txt`
+
+### `auditing.sh`
+- Linux script for manual auditing
+- Checks root activity, logins, cron, sudo logs, and more
+- Outputs to `/root/audit_log.log`
+
+---
+
+## 🚀 Features
+
+- ✅ Security event monitoring on Windows (Logon, Account Locked, etc.)
+- ✅ Simple GUI via PowerShell Forms
+- ✅ Optional user/object filter
+- ✅ Clean persistent logging
+- ✅ Readable, modifiable Linux script
+- ✅ No external dependencies
+
+---
+
+## 🧠 Ideal For
+
+- Junior sysadmins who want hands-on practice
+- Red teamers or pentesters needing low-level visibility
+- Students who want to understand system logs
+- Anyone who prefers **learning through code, not automation**
+
+---
+
+## 🖥️ Requirements
+
+### Windows
+- PowerShell 5+
+- Admin privileges to read Security logs
+
+### Linux
+- Bash
+- Root privileges to access system logs
+
+---
+
+## 📦 Installation
+
+### Windows
+```bash
+git clone https://github.com/matteosalis04/auditing-toolkit.git
+cd auditing-toolkit
+powershell -ExecutionPolicy Bypass -File auditing.ps1
+```
+
+### Linux
+```bash
+git clone https://github.com/matteosalis04/auditing-toolkit.git
+cd auditing-toolkit
+sudo bash auditing.sh
+```
+
+---
+
+## 👤 Author
+
+Made with 🔥 by **[@matteosalis04](https://github.com/matteosalis04)**  
+_"Code written by hand, not generated. Because understanding it is more important than just making it work."_
+
+---
+
+## 📜 License
+
+MIT — do what you want, just give credit.

@@ -10,7 +10,7 @@ A lightweight, cross-platform toolkit to monitor critical system events on both 
 
 ### `auditing.ps1`
 - Windows tool using PowerShell
-- Graphical and CLI interface
+- CLI interface
 - Based on `Get-WinEvent`
 - Supports Event ID search and optional filters (e.g. user, handle, object)
 - Outputs to `C:\log_audit.txt`
@@ -37,7 +37,6 @@ A lightweight, cross-platform toolkit to monitor critical system events on both 
 - Junior sysadmins who want hands-on practice
 - Red teamers or pentesters needing low-level visibility
 - Students who want to understand system logs
-- Anyone who prefers **learning through code, not automation**
 
 ---
 
@@ -57,15 +56,15 @@ A lightweight, cross-platform toolkit to monitor critical system events on both 
 
 ### Windows
 ```bash
-git clone https://github.com/matteosalis04/auditing-toolkit.git
-cd auditing-toolkit
+git clone https://github.com/matteosalis04/Auditing-ToolKit.git
+cd Auditing-ToolKit/Windows
 powershell -ExecutionPolicy Bypass -File auditing.ps1
 ```
 
 ### Linux
 ```bash
-git clone https://github.com/matteosalis04/auditing-toolkit.git
-cd auditing-toolkit
+git clone https://github.com/matteosalis04/Auditing-ToolKit.git
+cd Auditing-ToolKit/Linux
 sudo bash auditing.sh
 ```
 
@@ -73,7 +72,7 @@ sudo bash auditing.sh
 
 ## 👤 Author
 
-Made with 🔥 by **[@matteosalis04](https://github.com/matteosalis04)**  
+Made by **[@matteosalis04](https://github.com/matteosalis04)**  
 
 ---
 

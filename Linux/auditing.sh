@@ -54,10 +54,10 @@ ausearch -i -k $key | grep "success=no" | while read line; do
     echo ""
 done | tee -a $file_log
 
-
-echo "In allegato trovi il file di log con il report delle attività di auditing del sistema." > message.dat
-mpack -s "Report Audit - $data" -d "./message.dat" $file_log matteosalis04@gmail.com
-echo "Email Inviata!!!"
+# Install ssmtp
+#echo "In allegato trovi il file di log con il report delle attività di auditing del sistema." > message.dat
+#mpack -s "Report Audit - $data" -d "./message.dat" $file_log write_your_mail
+#echo "Email Send!!!"
 
 rm -rf $file_log
 

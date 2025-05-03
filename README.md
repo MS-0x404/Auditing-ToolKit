@@ -25,7 +25,6 @@ A lightweight, cross-platform toolkit to monitor critical system events on both 
 ## 🚀 Features
 
 - ✅ Security event monitoring on Windows (Logon, Account Locked, etc.)
-- ✅ Simple GUI via PowerShell Forms
 - ✅ Optional user/object filter
 - ✅ Clean persistent logging
 - ✅ Readable, modifiable Linux script
@@ -75,7 +74,6 @@ sudo bash auditing.sh
 ## 👤 Author
 
 Made with 🔥 by **[@matteosalis04](https://github.com/matteosalis04)**  
-_"Code written by hand, not generated. Because understanding it is more important than just making it work."_
 
 ---
 

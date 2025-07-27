@@ -72,7 +72,7 @@ sudo bash auditing.sh
 
 ## 👤 Author
 
-Made by **[@matteosalis04](https://github.com/matteosalis04)**  
+Made by **[@MS-0x404](https://github.com/MS-0x404)**  
 
 ---
 
